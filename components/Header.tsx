@@ -40,9 +40,19 @@ export default function Header() {
 
   useEffect(() => setOpen(false), [pathname]);
 
+  // 메뉴 열렸을 때 뒤 페이지 스크롤 막기
+  useEffect(() => {
+    document.body.style.overflow = open ? "hidden" : "";
+    return () => {
+      document.body.style.overflow = "";
+    };
+  }, [open]);
+
   const transparent = !scrolled && !open;
+  const close = () => setOpen(false);
 
   return (
+    <>
     <header className={`header ${transparent ? "transparent" : ""}`}>
       <div className="container inner">
         <Link href="/" className="logo" aria-label="홈">
@@ -71,29 +81,41 @@ export default function Header() {
           {site.company.tel}
         </a>
 
-        <button className="menu-btn" aria-label="메뉴" onClick={() => setOpen((v) => !v)}>
+        <button
+          className={`menu-btn ${open ? "open" : ""}`}
+          aria-label={open ? "메뉴 닫기" : "메뉴 열기"}
+          aria-expanded={open}
+          onClick={() => setOpen((v) => !v)}
+        >
           <span />
         </button>
       </div>
-
-      <nav className={`mobile-nav ${open ? "open" : ""}`}>
-        <ul>
-          {site.nav.map((item) => (
-            <li key={item.href}>
-              <Link href={item.href}>{item.label}</Link>
-              {item.children && (
-                <div className="sub">
-                  {item.children.map((c) => (
-                    <Link key={c.href} href={c.href} onClick={() => setOpen(false)}>
-                      {c.label}
-                    </Link>
-                  ))}
-                </div>
-              )}
-            </li>
-          ))}
-        </ul>
-      </nav>
     </header>
+
+    {/* header 밖에 둬야 함: header의 backdrop-filter 때문에 안에 있으면 화면 전체로 안 펼쳐짐 */}
+    <nav className={`mobile-nav ${open ? "open" : ""}`} aria-hidden={!open}>
+      <ul>
+        {site.nav.map((item) => (
+          <li key={item.href}>
+            <Link href={item.href} onClick={close}>
+              {item.label}
+            </Link>
+            {item.children && (
+              <div className="sub">
+                {item.children.map((c) => (
+                  <Link key={c.href} href={c.href} onClick={close}>
+                    {c.label}
+                  </Link>
+                ))}
+              </div>
+            )}
+          </li>
+        ))}
+      </ul>
+      <a href={`tel:${site.company.tel}`} className="mobile-call">
+        전화 문의 {site.company.tel}
+      </a>
+    </nav>
+    </>
   );
 }
