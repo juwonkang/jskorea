@@ -1,0 +1,223 @@
+{
+  "categories": [
+    { "key": "cleanroom", "title": "크린룸 시스템", "en": "Cleanroom System" },
+    { "key": "air", "title": "공조·필터 유닛", "en": "Air & Filter Unit" },
+    { "key": "floor", "title": "바닥재", "en": "Flooring" },
+    { "key": "equipment", "title": "크린 장비", "en": "Clean Equipment" }
+  ],
+  "items": [
+    {
+      "slug": "super-cleanroom",
+      "category": "cleanroom",
+      "name": "SUPER CLEAN ROOM",
+      "nameKo": "슈퍼크린룸",
+      "tagline": "Vertical Laminar Flow 기반의 고청정 크린룸",
+      "summary": [
+        "Open Bay 방식, Fan Filter Unit 방식, Clean Tunnel Module 방식",
+        "공기 순환형태와 온습도 제어 방식에 따른 맞춤 시스템",
+        "국내외 대형 반도체 공장 적용"
+      ],
+      "features": [
+        "Super Clean Room은 기본적으로 Vertical Laminar Flow 형태를 갖추고, 공기의 순환형태 및 온습도 제어 방식에 따라 여러 System이 적용됩니다.",
+        "Open Bay 방식은 청정도에 따라 ULPA Filter, HEPA Filter 또는 Blind Panel을 배치하여 경제적인 순환풍량을 확보하고 온습도를 유지합니다.",
+        "Fan Filter Unit 방식은 각 Filter에 소형 순환 Fan을 조합한 FFU를 천정면에 설치하여 순환계의 저항을 줄입니다.",
+        "순환계통에는 대형 Axial Fan, Cooling Coil, Medium Filter, Sound Attenuator 등이 설치됩니다."
+      ],
+      "image": "/images/cleanroom-1.jpg",
+      "gallery": ["/images/cleanroom-1.jpg", "/images/cleanroom-2.jpg"]
+    },
+    {
+      "slug": "portable-cleanroom",
+      "category": "cleanroom",
+      "name": "PORTABLE CLEANROOM",
+      "nameKo": "이동식 크린룸",
+      "tagline": "소형화·첨단화에 맞춘 컴팩트한 이동식 크린룸",
+      "summary": [
+        "조립형으로 운반 및 설치 용이",
+        "적은 비용으로 Class 10까지 구현",
+        "Size 조절 가능"
+      ],
+      "features": [
+        "Portable Cleanroom 기류는 HEPA FILTER에서 처리된 청정공기입니다.",
+        "기류는 이중 RECYCLING 방식으로 처리되어 최상의 효과를 얻을 수 있습니다.",
+        "조립형이기 때문에 운반 및 설치가 용이합니다.",
+        "적은 비용으로 최고의 환경이 가능하며 Class 10까지 가능합니다.",
+        "기류가 수평방식으로 천정부에는 불필요한 장치가 없습니다.",
+        "Size 조절이 가능합니다."
+      ],
+      "image": "/images/portable-1.jpg",
+      "gallery": ["/images/portable-1.jpg", "/images/portable-2.jpg"]
+    },
+    {
+      "slug": "ffu",
+      "category": "air",
+      "name": "FAN FILTER UNIT",
+      "nameKo": "팬 필터 유닛",
+      "tagline": "실내의 정압을 일정하게 유지하고 공기의 흐름 방향을 제어",
+      "summary": [
+        "유니트를 자유롭게 설치",
+        "소규모부터 대규모 크린룸까지 다양하게 활용",
+        "SUPER CLEAN ROOM에 적용"
+      ],
+      "features": [
+        "크린룸의 유지 및 관리가 편리합니다.",
+        "규격화된 UNIT를 자유롭게 설치할 수 있어 소규모부터 대규모 크린룸까지 다양하게 활용됩니다.",
+        "천정설치형으로 FAN 및 FILTER가 내장된 CLEAN ROOM을 구성합니다.",
+        "건물의 형태에 구애받지 않고 비교적 용이하게 CLEAN ROOM을 구성합니다.",
+        "플러그 타입으로 공급되어 설치 시간과 설치기술이 크게 요구되지 않습니다.",
+        "난류에서 층류 시스템까지 SUPER CLEAN ROOM에 적합합니다.",
+        "AC-MOTOR 타입과 운전비 절감 및 고효율의 BLDC-MOTOR 타입이 있습니다.",
+        "저소음형으로 별도의 흡음설비가 필요 없습니다."
+      ],
+      "image": "/images/p-ffu.jpg"
+    },
+    {
+      "slug": "ahu",
+      "category": "air",
+      "name": "AIR HANDLING UNIT",
+      "nameKo": "공조기",
+      "tagline": "공조 System의 심장, 수요자 요구에 적합한 A.H.U.",
+      "summary": [
+        "저소음, 저진동",
+        "분해와 조립이 용이하며 반입 설치비용 절감",
+        "온·습도 제어, FILTRATION, MIXING, HEAT EXCHANGE 등 다기능"
+      ],
+      "image": "/images/p-ahu.jpg"
+    },
+    {
+      "slug": "air-filter-unit",
+      "category": "air",
+      "name": "AIR FILTER UNIT",
+      "nameKo": "에어 필터 유닛",
+      "tagline": "Clean Room 내에 Clean Air를 적정하게 공급하는 천장조합형 HEPA Filter Unit",
+      "summary": [
+        "기류를 고르게 분산하는 펀칭 플레이트 토출구",
+        "팬 없는 타입 / 팬 부착 타입",
+        "처리풍량에 맞춘 사이즈 선정"
+      ],
+      "image": "/images/p-afu.jpg"
+    },
+    {
+      "slug": "blower-filter-unit",
+      "category": "air",
+      "name": "BLOWER FILTER UNIT",
+      "nameKo": "블로워 필터 유닛",
+      "tagline": "난류방식의 청정공기 공급 Unit",
+      "summary": [
+        "결합 분리가 용이",
+        "교체 및 정비가 간편",
+        "크린룸 유지의 기본 장비"
+      ],
+      "image": "/images/p-bfu.jpg"
+    },
+    {
+      "slug": "relief-damper",
+      "category": "air",
+      "name": "RELIEF DAMPER",
+      "nameKo": "릴리프 댐퍼",
+      "tagline": "돌발적인 압력 변화에도 민감하게 반응해 미압차를 유지",
+      "summary": [
+        "공기의 역류 없이 실내의 압력을 일정하게 유지",
+        "공기의 흐름 방향을 제어",
+        "오염공기가 CLEAN ROOM 내부로 인입되는 것을 방지"
+      ],
+      "image": "/images/p-damper.jpg"
+    },
+    {
+      "slug": "conductive-tile",
+      "category": "floor",
+      "name": "CONDUCTIVE TILE",
+      "nameKo": "전도성 타일",
+      "tagline": "정전기 발생이 우려되는 특수지역을 위한 바닥재",
+      "summary": [
+        "내약품성, 내마모성, 내스크래치성 우수",
+        "ASTM F 150 (500V) & DIN 51953 (500V) 전기적 저항요건 만족",
+        "크린룸, 전자조립실험실, 컴퓨터·전자장비실 등"
+      ],
+      "image": "/images/p-tile.jpg"
+    },
+    {
+      "slug": "access-floor",
+      "category": "floor",
+      "name": "ACCESS FLOOR",
+      "nameKo": "액세스 플로어",
+      "tagline": "강하고 견고한 이중바닥재",
+      "summary": [
+        "집중하중 및 충격하중에 뛰어난 효과",
+        "강하고 견고하며 화재에 강함",
+        "자원재생 가능, 폐기물이나 분진 발생 없음",
+        "사무실, 전산실, 방재센터, 연구실, 학교 등"
+      ],
+      "image": "/images/p-access.jpg"
+    },
+    {
+      "slug": "clean-booth",
+      "category": "equipment",
+      "name": "CLEAN BOOTH",
+      "nameKo": "크린부스",
+      "tagline": "정전기 방지와 파티클 제거, 99.97% 집진율 고성능 HEPA FILTER 탑재",
+      "summary": [
+        "CLASS 100~10,000 청정도 유지",
+        "하부 CASTER 장착으로 이동 가능",
+        "IONIZING SYSTEM 내장"
+      ],
+      "features": [
+        "작업 공간 내의 정전기 방지와 파티클 제거 기능",
+        "외부로부터 미생물, 미립자, 이물질 등의 유입을 방지",
+        "99.97% 집진율의 고성능 HEPA FILTER를 탑재하여 CLASS 100~10,000의 청정도를 유지",
+        "하부에 CASTER가 장착되어 있어 이동이 가능",
+        "출입구와 WALL재는 대전방지용 투명 SHEET를 사용",
+        "FILTER로 여과된 청정공기를 수직 층류 및 난류식으로 하여 내부에 양압을 유지",
+        "상단에 IONIZING SYSTEM을 내장하여 작업공간 내의 정전기 발생을 근본적으로 제거",
+        "먼지 및 파티클 오염으로 인한 생산 장애와 제품불량이 발생되는 공정에 효과적",
+        "모든 자재가 정전기 방지용으로 구성"
+      ],
+      "image": "/images/p-booth.jpg",
+      "gallery": ["/images/booth-install-1.jpg", "/images/booth-install-2.jpg"]
+    },
+    {
+      "slug": "clean-bench",
+      "category": "equipment",
+      "name": "CLEAN BENCH",
+      "nameKo": "크린벤치",
+      "tagline": "강력한 초고속 AIR를 이용한 고청정 크린벤치",
+      "summary": ["한층 더 강력해진 고청정 크린벤치", "1~2인용, 2~3인용, 3~4인용"],
+      "image": "/images/p-bench.jpg"
+    },
+    {
+      "slug": "air-shower",
+      "category": "equipment",
+      "name": "AIR SHOWER",
+      "nameKo": "에어샤워",
+      "tagline": "고성능 HEPA FILTER를 탑재한 에어샤워",
+      "summary": ["한층 더 강력해진 에어샤워", "1~2인용, 3~4인용, 터널식"],
+      "image": "/images/p-shower.jpg"
+    },
+    {
+      "slug": "pass-box",
+      "category": "equipment",
+      "name": "PASS BOX",
+      "nameKo": "패스박스",
+      "tagline": "먼지 및 진균 등의 유입을 막는 INTER LOCK 장치",
+      "summary": [
+        "오염공기의 유입이나 청정공기의 유출을 막는 장치",
+        "작업자의 이동을 최소화",
+        "오염 방지 장치"
+      ],
+      "image": "/images/p-passbox.jpg"
+    },
+    {
+      "slug": "particle-remover",
+      "category": "equipment",
+      "name": "LCD·GLASS PARTICLE REMOVER",
+      "nameKo": "LCD·Glass 파티클 제거 장치",
+      "tagline": "대형화된 Glass의 부착 이물질을 제거해 생산성을 높입니다",
+      "summary": ["품질을 저하시키는 이물질을 최소화", "제품의 생산성 향상"],
+      "features": [
+        "LCD 공정에서 Glass의 급속한 대형화로 부착 이물질이 제품의 생산성과 품질을 저하시키는 문제가 대두되고 있습니다.",
+        "Glass에 이물질이 부착된 상태로 다음 공정이 진행되는 현상을 방지합니다."
+      ],
+      "image": "/images/p-particle.jpg"
+    }
+  ]
+}

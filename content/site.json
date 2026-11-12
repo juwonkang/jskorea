@@ -1,0 +1,56 @@
+{
+  "company": {
+    "nameKo": "정석코리아 주식회사",
+    "nameEn": "JUNG SEOK KOREA Co., Ltd.",
+    "founded": 1997,
+    "slogan": "Our Standard, Global Standard",
+    "sloganKo": "우리의 기준이 세계의 기준이 됩니다",
+    "address": "경기도 화성시 정남면 세자로 312",
+    "addressEn": "312, Seja-ro, Jeongnam-myeon, Hwaseong-si, Gyeonggi-do, Republic of Korea",
+    "tel": "031-354-4944",
+    "fax": "031-354-4945",
+    "email": "sshpkorea@naver.com",
+    "hours": "평일 09:00~18:00 / 토 09:00~13:00",
+    "logo": "/images/logo.png",
+    "logoWhite": "/images/logo-white.png"
+  },
+  "nav": [
+    {
+      "label": "회사소개",
+      "en": "About",
+      "href": "/about",
+      "children": [
+        { "label": "CEO 인사말", "href": "/about#ceo" },
+        { "label": "비전", "href": "/about#vision" },
+        { "label": "주요연혁", "href": "/about#history" },
+        { "label": "국내외 조직", "href": "/about#organization" },
+        { "label": "찾아오시는 길", "href": "/about#location" }
+      ]
+    },
+    {
+      "label": "사업분야",
+      "en": "Business",
+      "href": "/business",
+      "children": [
+        { "label": "엔지니어링사업부", "href": "/business#engineering" },
+        { "label": "크린룸사업부", "href": "/business#cleanroom" },
+        { "label": "장비생산부", "href": "/business#equipment" },
+        { "label": "해외사업부", "href": "/business#overseas" }
+      ]
+    },
+    {
+      "label": "제품",
+      "en": "Products",
+      "href": "/products",
+      "children": [
+        { "label": "크린룸 시스템", "href": "/products#cleanroom" },
+        { "label": "공조·필터 유닛", "href": "/products#air" },
+        { "label": "바닥재", "href": "/products#floor" },
+        { "label": "크린 장비", "href": "/products#equipment" }
+      ]
+    },
+    { "label": "기술과 혁신", "en": "Technology", "href": "/technology" },
+    { "label": "사업실적", "en": "Results", "href": "/results" },
+    { "label": "문의하기", "en": "Contact", "href": "/contact" }
+  ]
+}

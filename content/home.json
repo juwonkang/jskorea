@@ -1,0 +1,62 @@
+{
+  "hero": {
+    "eyebrow": "Cleanroom & Plant Engineering",
+    "title": "우리의 기준이\n세계의 기준이 됩니다",
+    "description": "정석코리아는 21세기 글로벌 시대를 선도하는 기업이 되기 위해 최선의 노력을 다하겠습니다.",
+    "slides": [
+      "/images/hero-1.jpg",
+      "/images/hero-2.jpg",
+      "/images/hero-3.jpg"
+    ]
+  },
+  "intro": {
+    "eyebrow": "About Jung Seok Korea",
+    "title": "크린룸·플랜트 엔지니어링 전문기업",
+    "body": "1997년 창립 이래 우수한 기술과 풍부한 경험을 바탕으로 전자, 반도체, 디스플레이, 태양전지 등의 플랜트 사업과 O&M 사업을 수행하며 국내는 물론 아시아, 유럽, 중동, 아프리카, 중남미에서 세계 수준의 경쟁력을 확보해 왔습니다.",
+    "image": "/images/about-team.jpg"
+  },
+  "stats": [
+    { "value": "1997", "label": "창립" },
+    { "value": "9개국", "label": "해외 프로젝트 수행" },
+    { "value": "CLASS 10", "label": "청정도 구현" },
+    { "value": "99.97%", "label": "HEPA 집진율" }
+  ],
+  "business": {
+    "eyebrow": "Business Area",
+    "title": "설계부터 장비 생산, 해외 시공까지",
+    "items": [
+      {
+        "key": "engineering",
+        "title": "엔지니어링사업부",
+        "en": "Engineering",
+        "desc": "일반산업 플랜트, 공장설비, 아파트형 공장, 업무용 빌딩의 공공·상업 건축",
+        "image": "/images/eng-1.jpg"
+      },
+      {
+        "key": "cleanroom",
+        "title": "크린룸사업부",
+        "en": "Cleanroom",
+        "desc": "슈퍼크린룸과 이동식 크린룸, FFU·AHU 등 크린룸 핵심 설비",
+        "image": "/images/cleanroom-1.jpg"
+      },
+      {
+        "key": "equipment",
+        "title": "장비생산부",
+        "en": "Equipment",
+        "desc": "크린부스, 크린벤치, 에어샤워, 패스박스 등 크린 장비 자체 생산",
+        "image": "/images/booth-install-1.jpg"
+      },
+      {
+        "key": "overseas",
+        "title": "해외사업부",
+        "en": "Overseas",
+        "desc": "중동, 중국, 베트남, 필리핀 등 해외 크린룸 공사와 장비 설치",
+        "image": "/images/history-2.jpg"
+      }
+    ]
+  },
+  "cta": {
+    "title": "프로젝트 상담이 필요하신가요?",
+    "body": "크린룸 설계부터 장비 견적까지, 담당자가 직접 안내해 드립니다."
+  }
+}
